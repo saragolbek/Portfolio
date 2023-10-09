@@ -8,12 +8,12 @@ body, body a {
 
 .nav-link {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 3em;
 }
 
 .media-accounts a {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav-link:hover {
@@ -35,7 +35,7 @@ body, body a {
 
 .content {
   overflow: wrap;
-  padding: 0 100px 50px 100px;
+  padding: 0 60px 50px 60px;
 }
 
 .content-header {
@@ -54,19 +54,19 @@ body, body a {
 }
 
 .skills td {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .contact {
   width: 90%;
   margin: 0 auto;
-  padding: 4px 70px 4px 70px;
+  padding: 4px 30px 4px 30px;
 }
 
 .connect-accounts, .connect-accounts a {
   line-height: 4em;
-  font-size: 20px;
-  padding-left: 30px;
+  font-size: 18px;
+  padding-left: 15px;
 }
 
 .scrollableRow {
@@ -85,4 +85,10 @@ body, body a {
   width: 100%;
   aspect-ratio: 1.5;
   border-radius: 15px 15px 0 0;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  padding: 20px 0 100px 10px;
 }
