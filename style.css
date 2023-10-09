@@ -1,4 +1,11 @@
-/*nav*/
+/* body */
+
+body, body a {
+  color: #343a40;
+}
+
+/*   nav   */
+
 .nav-link {
   color: white;
   font-size: 24px;
@@ -28,11 +35,11 @@
 
 .content {
   overflow: wrap;
-  padding: 50px 100px 50px 100px;
+  padding: 0 100px 50px 100px;
 }
 
 .content-header {
-  color: #343a40;
+  margin-top: 50px;
 }
 
 .about-pic {
@@ -59,16 +66,22 @@
   line-height: 4em;
   font-size: 20px;
   padding-left: 30px;
-  color: #343a40;
 }
 
 .scrollableRow {
   overflow-x: scroll;
 }
 
-.sample-website {
+.sample-website{
+  border: .5px solid rgb(213, 212, 212);
+  padding-bottom: 5px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.website-img {
   object-fit: cover;
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 1.5;
   border-radius: 15px 15px 0 0;
 }
