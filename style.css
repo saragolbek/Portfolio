@@ -50,7 +50,7 @@ body, body a {
   border: 1px solid #bbb9b9;
   border-radius: 15px;
   box-shadow: 1px 1px 5px #a6a6a6;
-  padding: 1px 10px 10px 10px
+  padding: 1px 10px 10px 10px;
 }
 
 .skills td {
@@ -58,8 +58,9 @@ body, body a {
 }
 
 .contact {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
+  padding: 4px 70px 4px 70px;
 }
 
 .connect-accounts, .connect-accounts a {
