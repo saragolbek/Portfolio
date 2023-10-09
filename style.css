@@ -1,0 +1,74 @@
+/*nav*/
+.nav-link {
+  color: white;
+  font-size: 24px;
+  line-height: 3em;
+}
+
+.media-accounts a {
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  transform: scale(1.4);
+  color: white;
+}
+
+  /*hero*/
+.hero {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.bg-img {
+  aspect-ratio: 1.4;
+  object-fit: cover;
+}
+
+.content {
+  overflow: wrap;
+  padding: 50px 100px 50px 100px;
+}
+
+.content-header {
+  color: #343a40;
+}
+
+.about-pic {
+  border-radius: 15px;
+}
+
+.skills, .contact {
+  border: 1px solid #bbb9b9;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #a6a6a6;
+  padding: 1px 10px 10px 10px
+}
+
+.skills td {
+  font-size: 18px;
+}
+
+.contact {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.connect-accounts, .connect-accounts a {
+  line-height: 4em;
+  font-size: 20px;
+  padding-left: 30px;
+  color: #343a40;
+}
+
+.scrollableRow {
+  overflow-x: scroll;
+}
+
+.sample-website {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 15px 15px 0 0;
+}
