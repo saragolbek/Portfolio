@@ -1,12 +1,15 @@
-/* body */
+/*----------body-----------*/
 
 body, body a {
   color: #343a40;
 }
 
-/*   nav   */
+/*----------nav----------*/
 .nav-link {
   color: white;
+}
+
+.vertical-nav-link {
   font-size: 20px;
   line-height: 3em;
 }
@@ -17,15 +20,7 @@ body, body a {
 
 .nav-link:hover {
   transform: scale(1.4);
-  color: white;
-}
-
-/* nav for medium and below */
-.dropdown-menu a{
-  color: #343a40;
-  display: block;
-  line-height: 3em;
-  padding-left: 15px;
+  color: lightgray;
 }
 
 @media (max-width: 992px) {
@@ -35,17 +30,12 @@ body, body a {
 }
 
 @media (min-width: 992px) {
-  .navbar-toggler {
+  .nav-small {
     display: none !important;
   }
 }
 
-.navbar-toggler {
-  position: absolute !important;
-  z-index: 5;
-}
-
-  /*hero*/
+  /*----------hero----------*/
 .hero {
   height: 100vh;
   overflow-y: scroll;
@@ -68,42 +58,23 @@ body, body a {
   }
 }
 
+  /*----------about section----------*/
 .content-header {
   margin-top: 50px;
 }
 
 .about-pic {
   border-radius: 15px;
+  width: 30%;
 }
 
-.skills, .contact {
-  border: 1px solid #bbb9b9;
-  border-radius: 15px;
-  box-shadow: 1px 1px 5px #a6a6a6;
-  padding: 1px 10px 10px 10px;
-}
-
-.skills td {
-  font-size: 14px;
-}
-
-.contact {
-  width: 90%;
-  margin: 0 auto;
-  padding: 4px 30px 4px 30px;
-}
-
-.connect-accounts, .connect-accounts a {
-  line-height: 4em;
-  font-size: 18px;
-  padding-left: 15px;
-}
-
-@media (max-width: 992px) {
-  .contact {
-    margin-top: 40px;
+@media (min-width: 1634px) {
+  .about-pic{
+    width: 20%;
   }
 }
+
+/*----------sample sites----------*/
 
 .scrollableRow {
   overflow-x: scroll;
@@ -123,8 +94,28 @@ body, body a {
   border-radius: 15px 15px 0 0;
 }
 
-/* footer */
+/*----------contact----------*/
+
+.contact {
+  width: 90%;
+  margin: 0 auto;
+  padding: 4px 30px 4px 30px;
+}
+
+.connect-accounts, .connect-accounts a {
+  line-height: 4em;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+  .contact {
+    margin-top: 40px;
+  }
+}
+
+/*----------footer----------*/
 .footer {
   width: 100%;
-  padding: 20px 0 100px 10px;
+  padding: 15px;
 }

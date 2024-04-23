@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/images/lovelitreviews.jpg",
+    "alt": "Lovelitreviews",
+    "name": "LoveLitReviews(under construction)",
+    "liveLink": "https://lovelit-reviews-c60e53aa1022.herokuapp.com/",
+    "githubLink": "https://github.com/SaraGolbek/LoveLitReviews",
+    "date": "3/2024 to Present"
+  },
+  {
+    "id": 2,
+    "image": "/images/smartexchange.jpg",
+    "alt": "SmartExchange",
+    "name": "Smart Exchange",
+    "liveLink": "https://chipper-licorice-1fec59.netlify.app/",
+    "githubLink": "https://github.com/SaraGolbek/exchange-app",
+    "date": "12/2023 to Present"
+  },
+  {
+    "id": 3,
+    "image": "/images/lovelitreviews.jpg",
+    "alt": "Lovelitreviews",
+    "name": "test(under construction)",
+    "liveLink": "https://lovelit-reviews-c60e53aa1022.herokuapp.com/",
+    "githubLink": "https://github.com/SaraGolbek/LoveLitReviews",
+    "date": "3/2024 to Present"
+  },
+  {
+    "id": 4,
+    "image": "/images/smartexchange.jpg",
+    "alt": "test",
+    "name": "test Exchange",
+    "liveLink": "https://chipper-licorice-1fec59.netlify.app/",
+    "githubLink": "https://github.com/SaraGolbek/exchange-app",
+    "date": "12/2023 to Present"
+  }
+]
