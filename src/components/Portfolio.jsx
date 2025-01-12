@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import projects from '@/data/projects.json';
+import projects from '../data/projects.json';
 
 
 const Portfolio = () => (

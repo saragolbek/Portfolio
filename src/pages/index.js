@@ -6,7 +6,7 @@ import About from '../components/About';
 import Resume from '../components/Resume';
 import Portfolio from '../components/Portfolio';
 import Footer from '../components/Footer';
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "../components/ContactForm";
 
 
 const Home = () => (
