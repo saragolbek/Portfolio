@@ -1,0 +1,6 @@
+[build]
+  command = "yarn build"  # Or "npm run build" if using npm
+  publish = ".next"       # Directory Netlify will serve after build
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
