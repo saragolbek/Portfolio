@@ -5,7 +5,7 @@ const VerticalNavbar = () => {
         <div className="container mt-5">
             <nav className="nav flex-column d-inline text-center">
                 <h2 className="w-100">Sara Perez(Golbek)</h2>
-                <h6>Web Developer</h6>
+                <h6>Software Developer</h6>
                 <hr className="border-light mb-0"/>
                 <p className="media-accounts">
                     <a className="nav-link d-inline-block vertical-nav-link" target="blank"
